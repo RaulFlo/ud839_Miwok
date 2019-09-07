@@ -15,10 +15,10 @@
  */
 package com.example.android.miwok;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class FamilyActivity extends AppCompatActivity {
+public class FamilyActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
