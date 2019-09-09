@@ -17,6 +17,7 @@ package com.example.android.miwok;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class NumbersActivity extends Activity {
 
@@ -39,7 +40,8 @@ public class NumbersActivity extends Activity {
         words[8]= "nine";
         words[9]= "ten";
 
-
+        //Using Log to check index value
+        Log.v("NumbersActivity","Word at index 7: "+ words[7]);
 
 
 
